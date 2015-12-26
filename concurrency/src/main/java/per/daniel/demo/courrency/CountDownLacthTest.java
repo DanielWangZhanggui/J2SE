@@ -13,7 +13,7 @@ public class CountDownLacthTest
 {
     public static void main(String []args) throws InterruptedException {
         CountDownLatch latch = new CountDownLatch(3);
-	System.out.println("Hello ");
+	System.out.println("Hello World");
         new Thread(new Boss(latch)).start();
         Thread.sleep(1000);
 
